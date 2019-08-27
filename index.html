@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="" name="form">
+      <div class="display">
+        <input type="text" placeholder="0" name="result" id="result" />
+      </div>
+
+      <div class="button">
+        <div class="row">
+          <button type="button" name="clear" value="" onclick="rx(value)">AC</button>
+        </div>
+        <div class="row">
+          <input type="button" name="one" value="1" onclick="number(value)" />
+          <input type="button" name="two" value="2" onclick="number(value)" />
+          <input type="button" name="three" value="3" onclick="number(value)" />
+          <input type="button" name="add" value="+" onclick="number(value)">
+        </div>
+        <div class="row">
+          <input type="button" name="four" value="4" onclick="number(value)" />
+          <input type="button" name="five" value="5" onclick="number(value)" />
+          <input type="button" name="six" value="6" onclick=" number(value)" />
+          <input type="button" name="minus" value="-" onclick="number(value)">
+        </div>
+        <div class="row">
+          <input type="button" name="seven" value="7" onclick="number(value)" />
+          <input type="button" name="eight" value="8" onclick="number(value)" />
+          <input type="button" name="nine" value="9" onclick="number(value)" />
+          <input type="button" name="multiply" value="*" onclick="number(value)">
+        </div>
+        <div class="row">
+          <input type="button" name="zero" value="0" onclick="number(value)" />
+          <input type="button" name="dot" value="." onclick="number(value)" />
+          <input type="button" name="divide" value="/" onclick="number(value)" />
+          <button type="button" name="equal" value="=" onclick="gx()">=</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
